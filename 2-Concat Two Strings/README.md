@@ -4,9 +4,9 @@
 
 # Example Returns
 
-* yourFunction('Gilius','Blanchard') will return ** 'Hi, my name is Gilius Blanchard'.**
+* yourFunction('Gilius','Blanchard') will return 'Hi, my name is Gilius Blanchard'
 
-* yourFunction('John','Brown') will return ** 'Hi, my name is John Brown'.**
+* yourFunction('John','Brown') will return 'Hi, my name is John Brown'
 
 # How i solved it Hints
 * 2 parameters
