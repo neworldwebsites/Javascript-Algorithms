@@ -12,10 +12,10 @@ function myFunction(num = int) {
 	}
 		return '';
 } 
-console.log(myFunction(3));
-console.log(myFunction(5));
-console.log(myFunction(4));
-console.log(myFunction(15));
+console.log(myFunction(3)); // fizz
+console.log(myFunction(5)); // buzz 
+console.log(myFunction(4)); // [empty string]
+console.log(myFunction(15)); // fizzbuzz
 
 
 // SOLUTION 2

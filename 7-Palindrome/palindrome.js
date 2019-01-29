@@ -9,11 +9,11 @@ function myFunction(text) {
 	// return false;
 
 	return res === reveres;
-	
+
 	}
-console.log(myFunction('A man, aplan, a canal. Panama'));
-console.log(myFunction('My age is 0, 0 si ega ym.'));
-console.log(myFunction('codefun'));
-console.log(myFunction('legendary'));
-console.log(myFunction('.0_0(:/-\:)0-0'));
+console.log(myFunction('A man, aplan, a canal. Panama')); // true
+console.log(myFunction('My age is 0, 0 si ega ym.')); // true
+console.log(myFunction('codefun')); // false
+console.log(myFunction('legendary')); // false
+console.log(myFunction('.0_0(:/-\:)0-0')); // true
 

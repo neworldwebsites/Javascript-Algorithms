@@ -19,5 +19,5 @@ function myFunction2(word) {
 	}
 	return res;
 }
-console.log(myFunction2('codegod'));
-console.log(myFunction2('javascript'));
+console.log(myFunction2('codegod')); // dogedoc
+console.log(myFunction2('javascript')); // tpircsavaj
