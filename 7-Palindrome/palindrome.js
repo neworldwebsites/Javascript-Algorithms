@@ -3,11 +3,6 @@ function myFunction(text) {
 	let res = text.toLowerCase().replace(/[\W_]/g, "");
 	let reveres = res.split("").reverse().join('');
 
-	// if (res === reveres) {
-	// 	return true;
-	// }
-	// return false;
-
 	return res === reveres;
 
 	}
