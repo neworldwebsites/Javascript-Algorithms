@@ -5,6 +5,9 @@ function myFunction(str) {
 
 			if (text[i] !== text[i].toLowerCase()) {
 				text[i] = " " + text[i].toLowerCase();
+
+				// text[i] = text[i].toLowerCase();
+				// text.splice(i, 0, " ");
 			}
 
 		}
