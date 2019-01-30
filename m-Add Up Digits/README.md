@@ -1,16 +1,17 @@
 # Objective
 
-    Write a function that takes in an array of numbers  
-    and finds out if there are any duplicate numbers.
+    Write a function that takes in a number
+    and adds up the sum of its digits.
 
 ## Example Returns
 
-* yourFunction([1,2,3,1]) will return **true**
+* yourFunction(29) will return **11**
 
-* yourFunction([3,1]) will return **false**
-
-* yourFunction([0,4,5,0,3,6]) will return **true**
+* yourFunction(48) will return **12**
 
 ## How i solved it Hints
 
-* sort()
+* parseInt()
+* toString()
+* reduce()
+* split()
