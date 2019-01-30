@@ -1,17 +1,35 @@
+// SOLUTION 1
 function myFunction(numArr) {
+	let duplicateObject = {};
 
-	numArr = numArr.sort((num1,num2) => {
-		return num1 < num2;
-	});
+	for (let num of numArr) {
+		if (duplicateObject.hasOwnProperty(num)) {
+			
+			return num;
+		}
+		duplicateObject[num] = num;
+	}
+	return -1;
+}
+console.log(myFunction([2, 3, 3, 1, 5, 2])); // 3
+console.log(myFunction([2, 2])); // 2
+console.log(myFunction([2, 1, 3])); // -1
 
-	for (let i = 1; i < numArr.length; i++){
+
+
+// SOLUTION 2
+function myFunction2(numArr) {
+
+	for (let i = 0; i < numArr.length - 1; i++){
+		
 		if (numArr[i] === numArr[i + 1]) {
-			return true;
+			return numArr[i];
 		}
 	}
-	// coz numArr is sorting then if next = i, it's duplicate
-	return false;
+	return '-1';
 }
-console.log(myFunction([1, 2, 3, 1])); // true
-console.log(myFunction([3, 1])); // false
-console.log(myFunction([0, 4, 5, 0, 3, 6])); // true
+console.log(myFunction2([2,3,3,1,5,2])); // 3
+console.log(myFunction2([2,2])); // 2
+console.log(myFunction2([2,1,3])); // -1
+
+
