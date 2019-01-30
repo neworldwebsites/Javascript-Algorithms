@@ -1,19 +1,15 @@
 # Objective
 
-    Write a function that takes in a string and finds out if it is a valid time or not.
+    Write a function that takes in an array of numbers and finds out if there are any duplicate numbers.
 
 ## Example Returns
 
-* yourFunction('24:00') will return **false**
+* yourFunction([1,2,3,1]) will return **true**
 
-* yourFunction('23:31') will return **true**
+* yourFunction([3,1]) will return **false**
 
-* yourFunction('22:00') will return **true**
+* yourFunction([0,4,5,0,3,6]) will return **true**
 
 ## How i solved it Hints
 
-* split()
-* Number()
-
-
-
+* sort()
