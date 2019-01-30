@@ -1,17 +1,15 @@
 function myFunction(numArr) {
 
-	numArr = numArr.sort((num1,num2) => {
-		return num1 < num2;
-	});
+	let min = Math.min(...numArr);
+	let max = Math.max(...numArr);
+	let sum = 0;
 
-	for (let i = 1; i < numArr.length; i++){
-		if (numArr[i] === numArr[i + 1]) {
-			return true;
-		}
+	for (let i = min; i <= max; i++){
+		sum += i;
 	}
-	// coz numArr is sorting then if next = i, it's duplicate
-	return false;
+	
+	return sum;
 }
-console.log(myFunction([1, 2, 3, 1])); // true
-console.log(myFunction([3, 1])); // false
-console.log(myFunction([0, 4, 5, 0, 3, 6])); // true
+console.log(myFunction([10, 5])); // 45
+console.log(myFunction([3, 7])); // 25
+						// 3+4 =7+5 =12+6 =18+7 =25

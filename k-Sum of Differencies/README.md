@@ -1,16 +1,17 @@
 # Objective
 
-    Write a function that takes in an array of numbers  
-    and finds out if there are any duplicate numbers.
+    Write a function that takes a number array with two positive numbers
+    and finds the sum of all the numbers
+    between and including the largest value
+    and the smallest value.
 
 ## Example Returns
 
-* yourFunction([1,2,3,1]) will return **true**
+* yourFunction([10,5]) will return **45**
 
-* yourFunction([3,1]) will return **false**
-
-* yourFunction([0,4,5,0,3,6]) will return **true**
+* yourFunction([3,7]) will return **25**
 
 ## How i solved it Hints
 
-* sort()
+* Math.min()
+* Math.max()
