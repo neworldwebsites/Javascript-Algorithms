@@ -1,17 +1,20 @@
-function myFunction(numArr) {
-
-	numArr = numArr.sort((num1,num2) => {
-		return num1 < num2;
-	});
-
-	for (let i = 1; i < numArr.length; i++){
-		if (numArr[i] === numArr[i + 1]) {
-			return true;
+function myFunction(arr1, arr2) {
+	let uniqArr = [];
+	
+	for (let val of arr1) {
+		if (!arr2.includes(val)  && !uniqArr.includes(val) ) {
+			uniqArr.push(val);
 		}
 	}
-	// coz numArr is sorting then if next = i, it's duplicate
-	return false;
+	for (let val of arr2) {
+		if (!arr1.includes(val) && !uniqArr.includes(val)) {
+			uniqArr.push(val);
+		}
+	}
+
+
+	return uniqArr;
 }
-console.log(myFunction([1, 2, 3, 1])); // true
-console.log(myFunction([3, 1])); // false
-console.log(myFunction([0, 4, 5, 0, 3, 6])); // true
+console.log(myFunction([1, 2, 3, 5], [1, 2, 3, 4, 5]));// 4
+console.log(myFunction([1, "calf", 3, "piglet"], [7, "filly"])); // [1,"calf",3,"piglet",7,"filly"]
+console.log(myFunction([2, 1, 3], [3, 2, 1]));// []
