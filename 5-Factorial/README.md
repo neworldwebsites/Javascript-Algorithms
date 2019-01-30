@@ -1,6 +1,7 @@
 # Objective
 
-    Write a function that takes in a number and return the factorial.
+    Write a function that takes in a number
+    and return the factorial.
 
 ## Example Details
 

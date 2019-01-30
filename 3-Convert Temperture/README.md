@@ -1,6 +1,7 @@
 # Objective
 
-    Write a function that converts Celsius to Fareinheit.
+    Write a function that converts
+    Celsius to Fareinheit.
 
 ## Example Returns
 

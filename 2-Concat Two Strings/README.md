@@ -1,6 +1,8 @@
 # Objective
 
-    Write a function that takes in a string for your first name, a string for your last name and returns them formatted in the example below.
+    Write a function that takes in a string for your first name,
+    a string for your last name
+    and returns them formatted in the example below.
 
 ## Example Returns
 

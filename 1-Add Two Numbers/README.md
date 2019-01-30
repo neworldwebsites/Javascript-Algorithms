@@ -1,6 +1,7 @@
 # Objective
 
-    Write a function that takes in two numbers and adds the numbers together
+    Write a function that takes in two numbers
+    and adds the numbers together
 
 ## Example Returns
 

@@ -1,6 +1,7 @@
 # Objective
 
-    Write a function that takes in a string and returns the largest word in a array.
+    Write a function that takes in a string
+    and returns the largest word in a array.
 
 ## Example Returns
 
@@ -15,6 +16,3 @@
 * replace()
 * split()
 * for loop
-
-
-

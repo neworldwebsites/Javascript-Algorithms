@@ -1,6 +1,7 @@
 # Objective
 
-    Write a function that takes in a string and finds out if it is a valid time or not.
+    Write a function that takes in a string
+    and finds out if it is a valid time or not.
 
 ## Example Returns
 
@@ -14,6 +15,3 @@
 
 * split()
 * Number()
-
-
-

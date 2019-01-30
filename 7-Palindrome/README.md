@@ -1,6 +1,9 @@
 # Objective
 
-    Write a function that takes in a string that ignores special characters and underscores, is case insensative, ignores spaces and sees if it is a palindrome.
+    Write a function that takes in a string
+    that ignores special characters and underscores,
+    is case insensative, ignores spaces
+    and sees if it is a palindrome.
     PS: radar = rad | dar
 
 ## Example Returns
