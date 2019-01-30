@@ -1,16 +1,17 @@
 # Objective
 
-    Write a function that takes in an array of numbers  
-    and finds out if there are any duplicate numbers.
+    Write a function that takes in astring that has no spaces,
+    but new words are denoted with capital letters
+    and return a lowercase spaced out string.
 
 ## Example Returns
 
-* yourFunction([1,2,3,1]) will return **true**
+* yourFunction('CodingLovDoesWorkSon') will return **'coding lov does work son'**
 
-* yourFunction([3,1]) will return **false**
-
-* yourFunction([0,4,5,0,3,6]) will return **true**
+* yourFunction("Ain'tNoFunIfTheHomieDon'tCodeNone") will return **"ain't no fun if the homie don't code none"**
 
 ## How i solved it Hints
 
-* sort()
+* split()
+* toLowerCase()
+* join()
