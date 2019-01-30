@@ -7,6 +7,7 @@ function myFunction(text) {
 		largest = word.length > largest.length ? word : largest;
 
 	});
+
 	return largest;
 	}
 console.log(myFunction('Ready, steady, go!')); // coding
